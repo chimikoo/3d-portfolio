@@ -11,26 +11,20 @@ const Hero = ({ scrollContainer }) => {
           </h1>
           <Position />
         </div>
-        <div className="absolute top-[120%] left-[10%] sm:top-[140%] sm:left-[20%] lg:top-[190%] lg:left-[70%]">
-          <div className="font-bold text-[20px] sm:text-[30px] md:text-[36px] 2xl:text-[46px] sm:leading-[40px] md:leading-[50px] 2xl:leading-[60px] streaky-glow max-w-sm 2xl:max-w-lg text-white text-left">
-            I love crafting <br /> captivating experiences for the digital world
-            to savor.
+        <div 
+          className="hidden xl:block absolute xl:top-[125%] 2xl:top-[160%] 3xl:top-[200%] xl:left-[65%] 2xl:left-[67%] 3xl:left-[70%]"
+        >
+          <div className="font-bold text-[18px] sm:text-[28px] md:text-[34px] 2xl:text-[46px] sm:leading-[38px] md:leading-[48px] 2xl:leading-[60px] streaky-glow max-w-sm 2xl:max-w-lg text-white text-left">
+            I love crafting <br /> captivating experiences for the digital world to savor.
           </div>
         </div>
+
       </div>
 
       <img className="parallax__stars" src="./parallax/1Stars.svg" alt="" />
       <img className="parallax__planets" src="./parallax/2Planets.svg" alt="" />
-      <img
-        className="parallax__mountain1"
-        src="./parallax/3Mountain.svg"
-        alt=""
-      />
-      <img
-        className="parallax__mountain2"
-        src="./parallax/4Mountain.svg"
-        alt=""
-      />
+      <img className="parallax__mountain1" src="./parallax/3Mountain.svg" alt="" />
+      <img className="parallax__mountain2" src="./parallax/4Mountain.svg" alt="" />
       <img className="parallax__crater" src="./parallax/5Crater.svg" alt="" />
       <img className="parallax__sun" src="./parallax/6Sun.svg" alt="" />
 
